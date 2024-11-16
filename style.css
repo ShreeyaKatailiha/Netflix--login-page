@@ -1,0 +1,330 @@
+.top select{
+    width: 100px;
+    height: 50px;
+    text-align: center;
+}
+.top button{
+    width: 100px;
+    height: 50px;
+    text-align: center;
+}
+header{
+    width: 100%;
+    height: 20%;
+    color:white;
+}
+.net h1{
+    width: 50%;
+    padding: 0px 120px;
+
+}
+h1{
+    color: white;
+}
+
+        
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    margin: 0%;
+ 
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+.bg{
+    width: 100%;
+    height: 100vh;
+    background-image: url(banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    text-align: center;
+    
+    
+} 
+
+.flexcenter{
+    display: flex; 
+    justify-content:center ;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+}
+.bg content{
+    text-align: center;
+    padding: 30px 100px;
+    width: 100%;
+    height: 80%;
+    color:white;
+}
+.bg  h1{
+    font-size: 44px;
+    font-weight: 800;
+    color:white;
+}
+.bg p{
+    font-size: 25px;
+    font-weight: 300;
+    
+}
+.lang{
+    width: 130px;
+    height: 20px;
+    margin: 0px;
+    text-align: center;
+    border: 1px;
+
+}
+ 
+ button{
+    width: 150px;
+    height: 50px;
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: larger;
+    text-align: end;
+}
+.block_1{
+    background-color: black;
+    width: 100%;
+    height: auto;  
+    display: table;
+    clear: both;  
+    border-top:7px solid gray;
+    border-bottom: 7px solid gray;
+    
+}
+.content input{
+    width: 300px;
+    color: black;
+    font-size: 20px;
+    height: 50px;
+}
+
+    
+.block_tv{
+    padding: 50px;
+    width: 50%;
+    float: left;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+       
+}
+.block_tv_right{
+    width: 50%;
+    padding: 0%;
+    
+    float: left;
+}
+.block_1 h1{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.block_1 p{
+    font-size: 20px;
+    
+} 
+.block_2{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    border-bottom: 7px solid gray;
+    display: table;
+    clear: both;
+    background-color: black;
+}
+.stranger_left{
+    width: 50%;
+    height: 500px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.stranger_right{
+    width: 50%;
+    height: 500px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    
+}
+.stranger_right h1{
+    font-size: 40px;
+
+
+}
+.stranger_right p{
+    font-size: 20px;
+    padding: 20px;
+}
+.block_3{
+    width: 100%;
+    background-color: black;
+    display: table;
+    clear: both;
+    height: auto;
+    color: white;
+    border-top: 7px solid gray;
+    border-bottom:7px solid gray ;
+}
+.mac_left{
+    width: 50%;
+    height: 500px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+}
+.mac_right{
+    width: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+.mac_left h1{
+    font-size: 40px;
+
+}
+.mac_left p{
+    font-size: 20px;
+    padding: 20px;
+}
+.block_4{
+    width: 100%;
+    background-color: black;
+    height: auto;
+    display: table;
+    clear: both;
+    border-bottom: 7px solid gray;
+}
+.children_left{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    float: left;
+}
+.children_right{
+    width: 50%;
+    height: 500px;
+    background-color: black;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    color: white;
+    padding: 50px;
+}
+.children_right h1{
+    font-size: 40px;
+
+}
+.children_right p{
+    font-size: 20px;
+    padding:20px ;
+}
+.faq{
+    width: 100%;
+    height: auto;
+    background-color:black;
+    text-align: center;
+    padding: 50px 150px;
+    border-bottom: 8px solid gray;
+}
+.faq h1{
+    color: white;
+    font-size: 50px;
+    padding: 50px;
+}
+.faq p{
+    padding: 10px;
+    font-size: 25px;
+    color: white;
+}
+summary {
+    
+    border: 1px solid black;
+    background-color:grey;
+    color: white;
+    font-size: 25px;
+    text-align: start;
+    padding: 20px 20px;
+    margin: auto;
+    
+}
+details{
+    background-color:grey;
+    color: white;
+    justify-content:left;
+}
+input{
+    width: 350px;
+    height: 60px;
+    background-color:black;
+    color: white;
+    padding: 10px;
+}
+button{
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    font-size: 25px;
+}
+.others{
+    background-color: black;
+    width: 100%;
+    height:500px;
+    padding: 80px 150px;
+}
+
+.others  li{
+    font-size: 15px;
+    
+    color: white;
+    padding: 10px ;
+    display: block;
+    
+}
+.others P{
+    color: white;
+    padding:10px 20px;
+} 
+.others select{
+    background-color: grey;
+    color: white;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+}
